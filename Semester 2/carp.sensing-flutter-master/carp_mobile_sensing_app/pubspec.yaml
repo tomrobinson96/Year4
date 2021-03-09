@@ -1,0 +1,85 @@
+name: carp_mobile_sensing_app
+description: The CARP Mobile Sensing App
+version: 0.5.0
+author:  CACHET Team <cph.cachet@gmail.com>
+homepage: https://github.com/cph-cachet/carp.sensing-flutter/tree/master/carp_mobile_sensing_app
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ^0.18.0
+  carp_mobile_sensing: ^0.5.0
+  carp_communication_package: ^0.5.0
+  carp_context_package: ^0.5.0
+  carp_audio_package: ^0.5.0
+  carp_backend: ^0.3.2
+#  carp_firebase_backend: ^0.3.0
+
+
+# Overriding carp libraries to use the local copy
+# Remove this when done development
+dependency_overrides:
+  carp_mobile_sensing:
+    path: ../carp_mobile_sensing/
+  carp_communication_package:
+    path: ../carp_communication_package/
+  carp_context_package:
+    path: ../carp_context_package/
+  carp_audio_package:
+    path: ../carp_audio_package/
+#  carp_firebase_backend:
+#    path: ../carp_firebase_backend/
+  carp_webservices:
+    path: ../carp_webservices/
+  carp_backend:
+    path: ../carp_backend/
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - images/study.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages

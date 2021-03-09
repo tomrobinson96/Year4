@@ -1,0 +1,10 @@
+New def 'talk record' - this records talking up to certain number
+new def 'add_talk' - this adds a certain amount of talk to the sent data
+
+NEW
+
+TALK TIME
+
+for last 5 seconds of talk use talktime - 500
+
+EDIT TRIMMING def to cut out certain amount of talking before the shouting is heard
