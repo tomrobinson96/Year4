@@ -13,3 +13,7 @@ This folder contains all of the work related to the Berkley Pacman AI tasks that
 # Web Infrastructure 
 
 Contains notes from the web infrastructure module
+
+# SEMESTER 2
+
+This folder only contains the work for my MSc Dissertation. This is viewable in its own repo.
