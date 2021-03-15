@@ -8,7 +8,7 @@ This folder contains two asssingments that I've created in NetLogo. NetLogo is a
 
 # Artifical Intellegence & Pacman
 
-This folder contains all of the work related to the Berkley Pacman AI tasks that I completed 
+This folder contains all of the work related to the Berkley Pacman AI tasks that I completed. To view to coursework tasks that i completed, navigate to folders named 'Submission' for the first coursework, and 'CW2-Tom-Robinson' for coursework 2.
 
 # Web Infrastructure 
 
